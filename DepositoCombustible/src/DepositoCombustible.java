@@ -42,6 +42,7 @@ public class DepositoCombustible {
     public double getDepositoNivel(){
        return depNivel;
     }
+    
 
    /**
     * getDepositoMax es un método para obtener información
@@ -61,6 +62,7 @@ public class DepositoCombustible {
     public boolean estaVacio(){
       return depNivel == 0;
     }
+    
 
     /**
 	 * estaLleno información del estado 
